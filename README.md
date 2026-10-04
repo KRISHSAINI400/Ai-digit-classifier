@@ -12,23 +12,15 @@ MNIST Dataset: It contains 70,000 grayscale images (28x28 pixels) of handwritten
 1. Loaded the MNIST dataset directly using TensorFlow Keras.
 2. Normalized the pixel values (divided by 255) to scale them between 0 and 1.
 3. Created a Sequential Neural Network with a Flatten layer, a Hidden Dense layer (128 units, ReLU activation), and an Output Dense layer (10 units, Softmax activation).
-4. Compiled using the Adam optimizer and Sparse Categorical Crossentropy loss.
-5. Trained the model for 3 epochs and evaluated it on unseen test data.
+4. Trained the model for 3 epochs and evaluated it on unseen test data.
 
 ## Tools Used
 Python, TensorFlow, Keras, Google Colab
 
-## Output & Screenshots
-Here is the model training and the final evaluation accuracy:
+## Project Output & Accuracy
+Here is the live model training and evaluation screenshot from Google Colab:
 
-### Model Training
-![Training Process](screenshot1.png)
-
-### Final Test Accuracy
-![Model Accuracy](screenshot2.png)
-
-### Live Sample Prediction
-![AI Prediction](screenshot3.png)
+![Model Output](output.png)
 
 ## How to Run
 1. Open the code from `main.py` in Google Colab.
@@ -36,3 +28,4 @@ Here is the model training and the final evaluation accuracy:
 
 ## Author
 Krish Saini
+
