@@ -20,7 +20,8 @@ Python, TensorFlow, Keras, Google Colab
 ## Project Output & Accuracy
 Here is the live model training and evaluation screenshot from Google Colab:
 
-![Model Output](output.png)
+![Model Output](Screenshot1.png)
+
 
 ## How to Run
 1. Open the code from `main.py` in Google Colab.
